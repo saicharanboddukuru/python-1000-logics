@@ -1,4 +1,6 @@
-# Program 028 - 01 Basic Programs
-a = 5
-b = 3
-print('Sum:', a + b)
+# Program 028 - 02 If Else
+age = int(input('Enter age: '))
+if age >= 18:
+    print('Adult')
+else:
+    print('Minor')

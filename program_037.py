@@ -1,4 +1,8 @@
-# Program 037 - 01 Basic Programs
-a = 5
-b = 3
-print('Sum:', a + b)
+# Program 037 - 02 If Else
+num = int(input('Enter a number: '))
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')

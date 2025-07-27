@@ -1,2 +1,8 @@
-# Program 033 - 01 Basic Programs
-print('Hello, World!')
+# Program 033 - 02 If Else
+num = int(input('Enter a number: '))
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')

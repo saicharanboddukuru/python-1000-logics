@@ -1,3 +1,8 @@
-# Program 023 - 01 Basic Programs
+# Program 023 - 02 If Else
 num = int(input('Enter a number: '))
-print('Even' if num % 2 == 0 else 'Odd')
+if num > 0:
+    print('Positive')
+elif num < 0:
+    print('Negative')
+else:
+    print('Zero')

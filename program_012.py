@@ -1,2 +1,6 @@
-# Program 012 - 01 Basic Programs
-print('Hello, World!')
+# Program 012 - 02 If Else
+age = int(input('Enter age: '))
+if age >= 18:
+    print('Adult')
+else:
+    print('Minor')

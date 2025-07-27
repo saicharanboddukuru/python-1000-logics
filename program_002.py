@@ -1,3 +1,6 @@
-# Program 002 - 01 Basic Programs
-num = int(input('Enter a number: '))
-print('Even' if num % 2 == 0 else 'Odd')
+# Program 002 - 02 If Else
+age = int(input('Enter age: '))
+if age >= 18:
+    print('Adult')
+else:
+    print('Minor')
